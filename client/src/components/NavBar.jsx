@@ -17,4 +17,5 @@ export const NavBar = () => {
       </Link>
     </>
   );
+
 };

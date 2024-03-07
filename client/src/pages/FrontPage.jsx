@@ -15,14 +15,15 @@ function FrontPage() {
     <>
       <NavBar />
       <h1>Hello world, this is me, on my journey</h1>
-      <img src="src/images/me.jpeg" alt="picture of me"></img>
+      <div className="scrollImages">
+        <img src="src/images/me.jpeg" alt="picture"></img>
+        <img src="src/images/meBen.jpeg" alt="picture"></img>
+      </div>
       <div>
         <button onClick={handleAbout}>About me</button>
       </div>
       <Outlet />
-      <footer>
-        
-      </footer>
+      <footer></footer>
     </>
   );
 }

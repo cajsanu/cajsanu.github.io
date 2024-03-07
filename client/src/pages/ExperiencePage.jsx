@@ -1,15 +1,17 @@
 import { useNavigate } from "react-router";
+import { NavBar } from "../components/NavBar";
 
-export const AboutMe = () => {
-    const navigate = useNavigate()
-    const handleClose = () => {
-        navigate("/")
-    }
+export const ExperiencePage = () => {
+  const navigate = useNavigate();
+  const handleClose = () => {
+    navigate("/");
+  };
   return (
     <>
-      <h2>About me</h2>
+      <NavBar />
+      <h2>Relevant experience</h2>
       <p>//Hi there//</p>
-      <button onClick={handleClose}>Close</button>
+      <button onClick={handleClose}>Back</button>
     </>
   );
 };

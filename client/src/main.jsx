@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import FrontPage from "./pages/FrontPage";
 import { ErrorPage } from "./pages/ErrorPage";
 import { CoursePage } from "./pages/CoursePage";
+import { ExperiencePage } from "./pages/ExperiencePage"
 import { AboutMe } from "./components/AboutMe";
 import "./index.css";
 
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
   {
     path: "courses",
     element: <CoursePage />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "experience",
+    element: <ExperiencePage />,
     errorElement: <ErrorPage />,
   },
 ]);
