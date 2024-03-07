@@ -1,16 +1,28 @@
 import { useState } from "react";
 import { NavBar } from "../components/NavBar";
 import "../App.css";
+import { Outlet, useNavigate } from "react-router";
 
 function FrontPage() {
   const [count, setCount] = useState(0);
+  const navigate = useNavigate();
+
+  const handleAbout = () => {
+    navigate("/about");
+  };
 
   return (
     <>
-    <NavBar />
+      <NavBar />
       <h1>Hello world, this is me, on my journey</h1>
-      <div>picture</div>
-      <footer>footer</footer>
+      <img src="src/images/me.jpeg" alt="picture of me"></img>
+      <div>
+        <button onClick={handleAbout}>About me</button>
+      </div>
+      <Outlet />
+      <footer>
+        
+      </footer>
     </>
   );
 }
