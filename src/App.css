@@ -5,28 +5,6 @@
   text-align: center;
 }
 
-img {
-  width: 150px;
-  height: auto;
-  padding: 50px;
-  border-radius: 50%; 
-}
-
-.scrollImages {
-  overflow: auto;
-  white-space: nowrap;
-  padding: 50px;
-  max-width: 30%;
-  margin: 0 auto;
-}
-
-.scrollImages img {
-  padding: 10px;
-}
-
-img:hover {
-  filter: drop-shadow(0 0 3em #099fe4aa);
-}
 
 
 

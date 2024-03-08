@@ -6,7 +6,7 @@ export const CoursePage = () => {
         <>
         <NavBar />
             <h1>Courses</h1>
-            <ul>
+            <div className="scrollCourses">
                 <li>
                     Starting up
                 </li>
@@ -22,7 +22,7 @@ export const CoursePage = () => {
                 <li>
                     Git and GitHub
                 </li>
-            </ul>
+            </div>
         </>
     )
 }

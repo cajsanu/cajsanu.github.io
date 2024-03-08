@@ -15,9 +15,8 @@ function FrontPage() {
     <>
       <NavBar />
       <h1>Hello world, this is me, on my journey</h1>
-      <div className="scrollImages">
-        <img src="./images/me.jpeg" alt="picture"></img>
-        <img src="./images/meBen.jpeg" alt="picture"></img>
+      <div>
+        <img src="images/me.jpeg" alt="picture"></img>
       </div>
       <div>
         <button onClick={handleAbout}>About me</button>
