@@ -20,6 +20,9 @@ export const CoursePage = () => {
                     Fullstack p0-7
                 </li>
                 <li>
+                    Fullstack graphQL
+                </li>
+                <li>
                     Git and GitHub
                 </li>
             </div>

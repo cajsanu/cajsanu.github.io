@@ -1,10 +1,8 @@
-import { useState } from "react";
 import { NavBar } from "../components/NavBar";
 import "../App.css";
 import { Outlet, useNavigate } from "react-router";
 
 function FrontPage() {
-  const [count, setCount] = useState(0);
   const navigate = useNavigate();
 
   const handleAbout = () => {
@@ -14,7 +12,7 @@ function FrontPage() {
   return (
     <>
       <NavBar />
-      <h1>Hello world, this is me, on my journey</h1>
+      <h1>Hello world, this is me, Cajsa</h1>
       <div>
         <img src="images/me.jpeg" alt="picture"></img>
       </div>

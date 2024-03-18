@@ -14,7 +14,7 @@
 }
 
 img {
-  width: 150px;
+  width: 250px;
   height: auto;
   padding: 50px;
   border-radius: 50%; 
@@ -50,6 +50,11 @@ h1 {
   letter-spacing: 1px;
   margin-bottom: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 100px;
+}
+
+h2 {
+  padding-top: 100px;
 }
 
 button {
@@ -67,6 +72,10 @@ button:hover {
   border-color: #208fff7a;
 }
 
+button:active {
+  color: #208fff7a;
+}
+
 p {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -81,15 +90,19 @@ p {
 }
 
 .navbar {
-  position: fixed;
-  top: 50px;
-  left: 50px;
- 
-  color: #081c4e;
+  border-radius: 45%;
+  display: flex;
+  justify-content: center;
 }
 
-li {
-  padding: 50px;
+.navbar div {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar a {
+  padding-left: 20px;
+  color: #7fc9ee;
 }
 
 .scrollCourses {
